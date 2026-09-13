@@ -1,0 +1,29 @@
+# Text-to-Speech Tool Configuration
+
+# Default TTS engine (pyttsx3, gtts)
+default_engine: pyttsx3
+
+# Default language code
+default_language: en
+
+# Default speech rate (0.5 - 2.0)
+default_rate: 1.0
+
+# Default volume level (0.0 - 1.0)
+default_volume: 1.0
+
+# Output audio format
+output_format: mp3
+
+# Supported languages
+supported_languages:
+  - en   # English
+  - es   # Spanish
+  - fr   # French
+  - de   # German
+  - it   # Italian
+  - pt   # Portuguese
+  - ru   # Russian
+  - ja   # Japanese
+  - ko   # Korean
+  - zh   # Chinese
